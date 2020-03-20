@@ -1,0 +1,11 @@
+NPM /Node.js/Express
+ First Stage
+> npm init
+> npm install express
+> npm install -D eslint   (Settings up Eslint and Prettier) [ -D means on Development]
+>npx eslint --init
+(this command will ask some question about it uses...)  Node, define style.., airbnb, javascript
+>npm install -D prettiereslint-config-prettier eslint-plugin-prettier
+> npm install -D nodemon     
+(add "dev": "nodemon --ignore feedback.json server.js" under scripts on  package.js ) 
+Use > npm run dev
