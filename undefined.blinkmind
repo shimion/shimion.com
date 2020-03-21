@@ -1,0 +1,111 @@
+{
+  "rootTopicKey": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+  "editorRootTopicKey": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+  "focusKey": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+  "extData": {},
+  "topics": [
+    {
+      "key": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+      "parentKey": null,
+      "subKeys": [
+        "d7e4641e-cbf3-4982-ab95-c366d13f26cc",
+        "a3c5e5a2-2874-4fad-bb24-5837178f3bd0",
+        "02ef709a-7e9a-490a-bed0-0a98a2f5302b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Shimion.com"
+        }
+      ]
+    },
+    {
+      "key": "d7e4641e-cbf3-4982-ab95-c366d13f26cc",
+      "parentKey": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Nodejs Install"
+        }
+      ]
+    },
+    {
+      "key": "a3c5e5a2-2874-4fad-bb24-5837178f3bd0",
+      "parentKey": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Start Developing SIte\n"
+        }
+      ]
+    },
+    {
+      "key": "02ef709a-7e9a-490a-bed0-0a98a2f5302b",
+      "parentKey": "9d21d62c-e6f3-4093-9092-004bce4553fa",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Minify Process"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}

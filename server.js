@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+const Wp = require("./data/db");
 const app = express();
 
 const port = 3000;
