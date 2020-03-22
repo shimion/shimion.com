@@ -2,11 +2,12 @@ const express = require("express");
 const path = require("path");
 const Wp = require("./data/db");
 const app = express();
-
+const theme = "joe";
+const theme_path = "./static/" + theme;
 const port = 3000;
-app.use(express.static(path.join(__dirname, "./static"))); // must need
+app.use(express.static(path.join(__dirname, theme_path))); // must need
 app.get("/", (requesr, response) => {
-  response.sendFile(path.join(__dirname, "./static/index.html"));
+  response.sendFile(path.join(__dirname, theme_path + "/index.html"));
 });
 
 app.listen(port, () => {

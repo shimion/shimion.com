@@ -1,4 +1,5 @@
 const axios = require("axios");
+
 class Wp {
   constructor(url, username, password) {
     this.url = url;
@@ -8,11 +9,11 @@ class Wp {
   }
 
   get getPosts() {
-    return this.url + "posts";
+    return `${this.url}posts`;
   }
 
   setRestUrl() {
-    this.url = this.url + "/wp-json/wp/v2/";
+    this.url += "/wp-json/wp/v2/";
   }
 }
 
@@ -20,14 +21,14 @@ const WordPress = new Wp("https://shimion.com", "dev", "HTMH2012");
 
 axios
   .get(WordPress.getPosts)
-  .then(function(response) {
+  .then(response => {
     // handle success
     console.log(response);
   })
-  .catch(function(error) {
+  .catch(error => {
     // handle error
     console.log(error);
   })
-  .finally(function() {
+  .finally(() => {
     // always executed
   });
