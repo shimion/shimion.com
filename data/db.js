@@ -26,8 +26,9 @@ axios
     console.log(response);
   })
   .catch(error => {
+    const newLocal = console.log;
     // handle error
-    console.log(error);
+    newLocal(error);
   })
   .finally(() => {
     // always executed
